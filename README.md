@@ -3,33 +3,14 @@ Distributed-Replica-File-System-
 
 A Java Distributed Replica File System using Java Remote Method Invocation
 
-Contents
+Main Classes
 ------------
-1. Introduction
-2. Overview of proposed System
-3. Basic Operations
- - 3.1. Read
- - 3.2. Write
- - 3.3 Abort
- - 3.4 Commit
- - 3.5 Propagation of commands among replicas
-4. Sequential consistency and concurrency
-5. Master server
- - 5.1. Meta data setup
- - 5.2. Replica server interface
- - 5.3 Client Interface
- - 5.4. Main methods
-6. Replica server
- - 6.1. Ensuring Sequential consistency
- - 6.2. Ensuring Durability
- - 6.3. Main Methods
-7. Use cases
- - 7.1. Read
- - 7.2. Write
- - 7.3. Commit
-8. Handling Failures
- - 8.1. Client failure before committing transaction
- - 8.2. Client write message Loss
+1- ReplicaServer.java
+
+2- MainServerImpl.java
+
+3- Client.java
+
 
 1. Introduction
 ------------------
